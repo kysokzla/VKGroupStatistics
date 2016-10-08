@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50CF227C1DA95CB70062DE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF227B1DA95CB70062DE01 /* main.m */; };
-		50CF227F1DA95CB70062DE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF227E1DA95CB70062DE01 /* AppDelegate.m */; };
-		50CF22821DA95CB70062DE01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF22811DA95CB70062DE01 /* ViewController.m */; };
-		50CF22851DA95CB70062DE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CF22831DA95CB70062DE01 /* Main.storyboard */; };
-		50CF22871DA95CB70062DE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CF22861DA95CB70062DE01 /* Assets.xcassets */; };
+		50104F821DA974A500F2576A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F811DA974A500F2576A /* AppDelegate.m */; };
+		50104F851DA974DB00F2576A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50104F831DA974DB00F2576A /* Info.plist */; };
+		50104F861DA974DB00F2576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50104F841DA974DB00F2576A /* main.m */; };
+		50104F891DA974ED00F2576A /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50104F871DA974ED00F2576A /* Base.lproj */; };
+		50104F8A1DA974ED00F2576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50104F881DA974ED00F2576A /* Assets.xcassets */; };
 		50CF228A1DA95CB70062DE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CF22881DA95CB70062DE01 /* LaunchScreen.storyboard */; };
 		A63ACFC4F3F4829D6E3CE194 /* libPods-InstagrafVK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5132665E2FFFDA1527BBBBE /* libPods-InstagrafVK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50104F801DA974A500F2576A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sources/AppDelegate.h; sourceTree = "<group>"; };
+		50104F811DA974A500F2576A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sources/AppDelegate.m; sourceTree = "<group>"; };
+		50104F831DA974DB00F2576A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		50104F841DA974DB00F2576A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		50104F871DA974ED00F2576A /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Resources/Base.lproj; sourceTree = "<group>"; };
+		50104F881DA974ED00F2576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 		50CF22771DA95CB70062DE01 /* InstagrafVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagrafVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50CF227B1DA95CB70062DE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		50CF227D1DA95CB70062DE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		50CF227E1DA95CB70062DE01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50CF22801DA95CB70062DE01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		50CF22811DA95CB70062DE01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		50CF22841DA95CB70062DE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50CF22861DA95CB70062DE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50CF22891DA95CB70062DE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		50CF228B1DA95CB70062DE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80CC01192A79B44B23D7509D /* Pods-InstagrafVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagrafVK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagrafVK/Pods-InstagrafVK.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C558EBDB90EE3B518DC6D4 /* Pods-InstagrafVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagrafVK.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagrafVK/Pods-InstagrafVK.release.xcconfig"; sourceTree = "<group>"; };
 		E5132665E2FFFDA1527BBBBE /* libPods-InstagrafVK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstagrafVK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +50,216 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		50104F7A1DA9734100F2576A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50104F871DA974ED00F2576A /* Base.lproj */,
+				50104F881DA974ED00F2576A /* Assets.xcassets */,
+				50104F7E1DA9738300F2576A /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50104F7B1DA9735200F2576A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				50104F9C1DA9791600F2576A /* About */,
+				50104F9B1DA9790600F2576A /* Graph */,
+				50104F9A1DA978FB00F2576A /* Statistics */,
+				50104F991DA978F100F2576A /* Burger */,
+				50104F7D1DA9736F00F2576A /* Authorization */,
+				50104F7C1DA9736300F2576A /* Common */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		50104F7C1DA9736300F2576A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				50104F9D1DA9795C00F2576A /* Protocols */,
+				50104F951DA9779F00F2576A /* Models */,
+				50104F9E1DA9797000F2576A /* UI */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		50104F7D1DA9736F00F2576A /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				50104F971DA9782700F2576A /* Protocols */,
+				50104F901DA9774400F2576A /* Models */,
+				50104F961DA9781900F2576A /* UI */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		50104F7E1DA9738300F2576A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		50104F7F1DA9747B00F2576A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				50104F801DA974A500F2576A /* AppDelegate.h */,
+				50104F811DA974A500F2576A /* AppDelegate.m */,
+				50104F8C1DA9753200F2576A /* Core */,
+				50104F8B1DA9752B00F2576A /* Services */,
+				50104F7B1DA9735200F2576A /* Modules */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		50104F8B1DA9752B00F2576A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		50104F8C1DA9753200F2576A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		50104F8D1DA9771800F2576A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50104F8F1DA9773C00F2576A /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		50104F901DA9774400F2576A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		50104F911DA9774B00F2576A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		50104F921DA9778B00F2576A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		50104F931DA9779100F2576A /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		50104F941DA9779800F2576A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50104F951DA9779F00F2576A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		50104F961DA9781900F2576A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				50104F8D1DA9771800F2576A /* ViewControllers */,
+				50104F8F1DA9773C00F2576A /* Controls */,
+				50104F911DA9774B00F2576A /* View */,
+				50104F981DA9786A00F2576A /* Cells */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		50104F971DA9782700F2576A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		50104F981DA9786A00F2576A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		50104F991DA978F100F2576A /* Burger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Burger;
+			sourceTree = "<group>";
+		};
+		50104F9A1DA978FB00F2576A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		50104F9B1DA9790600F2576A /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		50104F9C1DA9791600F2576A /* About */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		50104F9D1DA9795C00F2576A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		50104F9E1DA9797000F2576A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				50104F941DA9779800F2576A /* ViewControllers */,
+				50104F931DA9779100F2576A /* Controls */,
+				50104F921DA9778B00F2576A /* View */,
+				50104F9F1DA9798200F2576A /* Cells */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		50104F9F1DA9798200F2576A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		50CF226E1DA95CB70062DE01 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +281,8 @@
 		50CF22791DA95CB70062DE01 /* InstagrafVK */ = {
 			isa = PBXGroup;
 			children = (
-				50CF227D1DA95CB70062DE01 /* AppDelegate.h */,
-				50CF227E1DA95CB70062DE01 /* AppDelegate.m */,
-				50CF22801DA95CB70062DE01 /* ViewController.h */,
-				50CF22811DA95CB70062DE01 /* ViewController.m */,
-				50CF22831DA95CB70062DE01 /* Main.storyboard */,
-				50CF22861DA95CB70062DE01 /* Assets.xcassets */,
-				50CF22881DA95CB70062DE01 /* LaunchScreen.storyboard */,
-				50CF228B1DA95CB70062DE01 /* Info.plist */,
+				50104F7F1DA9747B00F2576A /* Sources */,
+				50104F7A1DA9734100F2576A /* Resources */,
 				50CF227A1DA95CB70062DE01 /* Supporting Files */,
 			);
 			path = InstagrafVK;
@@ -89,7 +291,9 @@
 		50CF227A1DA95CB70062DE01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				50CF227B1DA95CB70062DE01 /* main.m */,
+				50104F831DA974DB00F2576A /* Info.plist */,
+				50104F841DA974DB00F2576A /* main.m */,
+				50CF22881DA95CB70062DE01 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,9 +367,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50104F851DA974DB00F2576A /* Info.plist in Resources */,
+				50104F891DA974ED00F2576A /* Base.lproj in Resources */,
+				50104F8A1DA974ED00F2576A /* Assets.xcassets in Resources */,
 				50CF228A1DA95CB70062DE01 /* LaunchScreen.storyboard in Resources */,
-				50CF22871DA95CB70062DE01 /* Assets.xcassets in Resources */,
-				50CF22851DA95CB70062DE01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,23 +429,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CF22821DA95CB70062DE01 /* ViewController.m in Sources */,
-				50CF227F1DA95CB70062DE01 /* AppDelegate.m in Sources */,
-				50CF227C1DA95CB70062DE01 /* main.m in Sources */,
+				50104F861DA974DB00F2576A /* main.m in Sources */,
+				50104F821DA974A500F2576A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		50CF22831DA95CB70062DE01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50CF22841DA95CB70062DE01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50CF22881DA95CB70062DE01 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,6 +465,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Maxim Gall (XU4B6RGBE9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -288,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -312,6 +509,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maxim Gall (8Q35VH5B28)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -325,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -337,7 +535,7 @@
 			baseConfigurationReference = 80CC01192A79B44B23D7509D /* Pods-InstagrafVK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = InstagrafVK/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InstagrafVK/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madcurd.InstagrafVK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,7 +547,7 @@
 			baseConfigurationReference = B2C558EBDB90EE3B518DC6D4 /* Pods-InstagrafVK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = InstagrafVK/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InstagrafVK/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madcurd.InstagrafVK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
